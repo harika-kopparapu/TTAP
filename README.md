@@ -1,10 +1,8 @@
 # TTAP WITH CODE COVERAGE AND QUALITY
-<img width="764" alt="Capture1" src="https://user-images.githubusercontent.com/84472191/234540528-279080b3-6878-45ce-ac49-4d11a85434b2.PNG">
 
 ## Front End Testing 
 
 End-to-end testing using Cypress which allows developers to test their code, helps to catch bugs and errors.
-<img width="776" alt="Capture" src="https://user-images.githubusercontent.com/84472191/234539975-ee389d48-cbc9-4ee1-849d-233b944c2bb2.PNG">
 
 ## Installation
 
@@ -39,8 +37,7 @@ Save the file.
 
 Open selected browser it will automatically run the test. Along with this run the HMI Client and TTAP Server seperately.
 
-
-<img src="C:/Users/495902/Pictures/Screenshots/image.svg" width="128"/>
+![Screenshot (49)](https://user-images.githubusercontent.com/84472191/234544599-ba1a403a-4f5e-4417-9c5a-7c6910a20c7c.png)
 
 ______________________________________________________________
 
