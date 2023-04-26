@@ -10,7 +10,7 @@ Use the link https://docs.cypress.io/guides/getting-started/installing-cypress#D
 
 ## Setup
 
-On Opening the cypress, Select the project HMI folder then choose the E2E testing type.
+On opening the cypress, Select the project HMI folder then choose the E2E testing type.
 
 After launching the browser, Select the browser type to run the tests.
 
@@ -76,6 +76,8 @@ Right click on the test method and then click on the run tests.
 ## Result
 
 We can see whether the test case has passed or failed.
+
+<img width="314" alt="testcase" src="https://user-images.githubusercontent.com/84472191/234547514-783cacb4-6ae9-4b64-9b20-6278b4681924.PNG">
 
 ______________________________________________________________
 
