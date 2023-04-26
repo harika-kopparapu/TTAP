@@ -3,6 +3,7 @@
 ## Front End Testing 
 
 End-to-end testing using Cypress which allows developers to test their code, helps to catch bugs and errors.
+<img width="776" alt="Capture" src="https://user-images.githubusercontent.com/84472191/234539975-ee389d48-cbc9-4ee1-849d-233b944c2bb2.PNG">
 
 ## Installation
 
