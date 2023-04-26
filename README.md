@@ -18,9 +18,7 @@ After launching the browser, Select the browser type to run the tests.
 
 Create new spec.cy.ts file.
 
-![](https://testing-angular.com/assets/img/cypress-tests.png)
-
-
+![Screenshot (50)](https://user-images.githubusercontent.com/84472191/234545117-9e1d3dd6-d429-4ec2-8ece-0ff43a747398.png)
 
 ```
 describe('Register module', () => {
