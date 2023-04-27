@@ -215,23 +215,25 @@ ______________________________________________________________
 
 
 # SonarLint Extension
+
 SonarLint extension provide developers with real-time feedback on code quality issues, including bugs, vulnerabilities, and code smells, and suggest improvements based on the rules defined in SonarQube.
 
 ## Installation
 
-Install the SonarLint Extension. You can do this by opening Visual Studio and navigating to the "Extensions" menu. Click on "Manage Extensions" and search for [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2022) 
+Install the SonarLint Extension. You can do this by opening Visual Studio and navigating to the "Extensions" menu. 
+
+Click on "Manage Extensions" and search for [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2022) 
 
 ## Configuration
 
-Open Visual Studio and navigate to "Extensions" -> "SonarLint" -> "Connected Mode" -> "Bind to sonarqube" 
+* Open Visual Studio and navigate to "Extensions" -> "SonarLint" -> "Connected Mode" -> "Bind to sonarqube" 
 
-Enter the following details:
+* Enter the following details:
+   * SonarQube Server URL : The URL of your SonarQube server
+   * Username/token       : Login username of your SonarQube server
+   * Password             : Login Password of your SonarQube server
 
-SonarQube Server URL: The URL of your SonarQube server
-Username/token: Login username of your SonarQube server
-Password: Login Password of your SonarQube server
-
-Save the settings.
+* Save the settings.
 
 ## Result
 
