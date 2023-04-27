@@ -130,9 +130,9 @@ docker pull sonarqube
 
 ## SonarQube Integration with DevOps
 
-* Install the SonarQube extension for Azure DevOps. 
+Install the SonarQube extension for Azure DevOps. 
 
-* Go to Azure DevOps "Marketplace" and search for [SonarQube](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube). 
+Go to Azure DevOps "Marketplace" and search for [SonarQube](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube). 
 
 ## Configure the SonarQube Server 
 
