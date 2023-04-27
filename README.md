@@ -228,7 +228,8 @@ Click on "Manage Extensions" and search for [SonarLint](https://marketplace.visu
 
 * Open Visual Studio and navigate to "Extensions" -> "SonarLint" -> "Connected Mode" -> "Bind to sonarqube" 
 
-![MicrosoftTeams-image (14)](https://user-images.githubusercontent.com/84472191/234782499-08eb7306-68fc-4d5e-9cf3-c68401cb56fa.png)
+
+![MicrosoftTeams-image (14)](https://user-images.githubusercontent.com/84472191/234783486-9ac92114-7127-4011-8ce0-a853771260e9.png)
 
 
 * Enter the following details:
@@ -236,7 +237,9 @@ Click on "Manage Extensions" and search for [SonarLint](https://marketplace.visu
    * Username/token       : Login username of your SonarQube server
    * Password             : Login Password of your SonarQube server
 
+
 ![MicrosoftTeams-image (13)](https://user-images.githubusercontent.com/84472191/234782462-0dc27bc5-603e-4b89-8953-822f40374d7f.png)
+
 
 * Save the settings.
 
