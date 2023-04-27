@@ -6,7 +6,7 @@ End-to-end testing using Cypress which allows developers to test their code, hel
 
 ## Installation
 
-Use the link https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download to install Cypress zip file. Cypress will run without needing to install any dependencies.
+Use the [link](https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download) to install Cypress zip file. Cypress will run without needing to install any dependencies.
 
 ## Setup
 
