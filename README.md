@@ -100,8 +100,7 @@ Install tool using [coverlet.collector](https://www.nuget.org/packages/coverlet.
 
 In visual studio, Go to "tools" -> "run code coverage". Report will be generated automatically based on test cases. We can see the line coverage and branch coverage percentage in the report.
 
-![MicrosoftTeams-image (11)](https://user-images.githubusercontent.com/84472191/234773972-bb657084-2ce9-4788-98dd-c80d2b9d200f.png)
-
+<img width="366" alt="MicrosoftTeams-image (11)" src="https://user-images.githubusercontent.com/84472191/234774170-619e6aff-7299-4a5f-8c38-9fa91022a6cc.png">
 
 ______________________________________________________________
 
