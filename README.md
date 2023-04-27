@@ -45,7 +45,7 @@ ______________________________________________________________
 
 ## Back End Testing
 
-Unit testing using XUnit which allows developers to test their code.
+Unit testing using xUnit which allows developers to test their code.
 
 ## Installation
 
