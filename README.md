@@ -105,7 +105,7 @@ In visual studio, Go to "tools" -> "run code coverage".
 We can see the line coverage and branch coverage percentage in the report.
 
 
-<img width="411" alt="Picture2" src="https://user-images.githubusercontent.com/84472191/234785860-02aed1e6-d397-4622-87f0-3eac754515c9.png">
+<img width="510" alt="Picture2" src="https://user-images.githubusercontent.com/84472191/234786149-724eb320-1e90-45b3-b43f-c2bff014e9f2.png">
 
 
 
