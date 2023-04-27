@@ -43,7 +43,7 @@ Open selected browser it will automatically run the test. Along with this run th
 ______________________________________________________________
 
 
-## Back End Testing
+# Unit Testing on Backend
 
 Unit testing using xUnit which allows developers to test their code.
 
@@ -84,7 +84,7 @@ We can see whether the test case has passed or failed.
 
 ______________________________________________________________
 
-## Code coverage
+# Code coverage
 
 Code coverage is the measure of how much code is covered during testing phase.
 
@@ -103,7 +103,7 @@ Go to tools in visual studio, click on the run code coverage. Report will be gen
 ______________________________________________________________
 
 
-## Code Quality
+# Code Quality
 
 Code Quality is the measure how well the code is.
 
@@ -122,23 +122,6 @@ docker pull sonarqube
 ## SonarQube Integration with DevOps
 
 To integrate sonarqube to AzureDevOps, Create an Azure DevOps Organization.
-
-## Repository
-
-create a repository in DevOps. After commiting changes to code, push the code to repository.
-
-``` 
-git init
-
-git add .
-
-git commit -m "Intial Commit"
-
-git remote add origin https://xx.xx.xxxx.xxx//
-
-git push -u origin --all
-
-```
 
 After pushing the code, Install the SonarQube extension for Azure DevOps. You can do this by going to the Azure DevOps Marketplace and searching for [SonarQube](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube). 
 
@@ -221,7 +204,7 @@ After successfull build the results will be uploaded in sonarqube dashboard page
 ______________________________________________________________
 
 
-## SonarLint Extension
+# SonarLint Extension
 SonarLint extension provide developers with real-time feedback on code quality issues, including bugs, vulnerabilities, and code smells, and suggest improvements based on the rules defined in SonarQube.
 
 ## Installation
