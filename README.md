@@ -14,6 +14,9 @@ On opening the cypress, Select the project HMI folder then choose the E2E testin
 
 After launching the browser, Select the browser type to run the tests.
 
+![Screenshot (45)](https://user-images.githubusercontent.com/84472191/234762874-c0e56002-c913-47ae-9d32-ea39ca63e20c.png)
+
+
 ## Writing test file
 
 Create new spec.cy.ts file.
