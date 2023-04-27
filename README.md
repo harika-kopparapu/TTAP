@@ -18,7 +18,7 @@ After launching the browser, Select the browser type to run the tests.
 
 Create new spec.cy.ts file.
 
-![Screenshot (50)](https://user-images.githubusercontent.com/84472191/234545117-9e1d3dd6-d429-4ec2-8ece-0ff43a747398.png)
+![Screenshot (50)](https://user-images.githubusercontent.com/84472191/234762634-f6a0b793-6604-452e-9106-ea953201bea5.png)
 
 ```
 describe('Register module', () => {
@@ -35,7 +35,7 @@ Save the file.
 
 Open selected browser it will automatically run the test. Along with this run the HMI Client and TTAP Server seperately.
 
-![Screenshot (49)](https://user-images.githubusercontent.com/84472191/234544599-ba1a403a-4f5e-4417-9c5a-7c6910a20c7c.png)
+![Screenshot (49)](https://user-images.githubusercontent.com/84472191/234762664-a2f18d2e-0038-43fd-b6c2-bdd53c215f52.png)
 
 ______________________________________________________________
 
