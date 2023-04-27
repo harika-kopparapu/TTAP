@@ -128,9 +128,9 @@ docker pull sonarqube
 
 ## SonarQube Integration with DevOps
 
-Install the SonarQube extension for Azure DevOps. 
+* Install the SonarQube extension for Azure DevOps. 
 
-Go to Azure DevOps "Marketplace" and search for [SonarQube](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube). 
+* Go to Azure DevOps "Marketplace" and search for [SonarQube](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube). 
 
 ## Configure the SonarQube Server 
 
@@ -140,38 +140,40 @@ Go to Azure DevOps "Marketplace" and search for [SonarQube](https://marketplace.
 
 * Add configure with the following details:
    * Name: Azure DevOps
-   * URL: https://dev.azure.com/{your organization name}/
+   * URL: https://dev.azure.com/{your_organization_name}/
 
 * Save the configuration.
 
 ## Connection between sonarqube and devOps
 
-In order for Azure DevOps to communicate with SonarQube, you need to generate a SonarQube token. 
+* In order for Azure DevOps to communicate with SonarQube, you need to generate a SonarQube token. 
 
-Login to your SonarQube server and go to the "My Account" tab. 
+* Login to your SonarQube server and go to the "My Account" tab. 
 
-Click on "Security" and then "Generate Tokens". Give the token a name and click "Generate". Note down the token value.
+* Click on "Security" and then "Generate Tokens". Give the token a name and click "Generate". Note down the token value.
 
-After that create a Service Connection in Azure DevOps. Go to your Azure DevOps project and click on "Project Settings". Click on "Service Connections" and then "New Service Connection". 
+* After that create a Service Connection in Azure DevOps. 
 
-Select "SonarQube" and enter the following details:
+* Go to your Azure DevOps project and click on "Project Settings" -> "Service Connections" -> "New Service Connection". 
 
-Connection Name: SonarQube
-Server URL: https://{your SonarQube server URL}
+* Select "SonarQube" and enter the following details:
+   * Connection Name: SonarQube
+   * Server URL: https://{your SonarQube server URL}
 
 ## Pipeline
 
-Add the SonarQube Build Task to Your Pipeline. Edit your pipeline and add a new task.
+* Add the SonarQube Build Task to Your Pipeline. Edit your pipeline and add a new task.
 
-Select "SonarQube" from the task list and enter the following details:
+* Select "SonarQube" from the task list and enter the following details:
+   * SonarQube Endpoint: Select the service connection you created.
+   * Project Key: The unique key for your SonarQube project
+   * Project Name: The name of your SonarQube project
+   * Project Version: The version of your SonarQube project
+   * Additional Properties: Additional properties for the SonarQube analysis
 
-SonarQube Endpoint: Select the service connection you created.
-Project Key: The unique key for your SonarQube project
-Project Name: The name of your SonarQube project
-Project Version: The version of your SonarQube project
-Additional Properties: Additional properties for the SonarQube analysis
+* Save the task and run your pipeline. 
 
-Save the task and run your pipeline. SonarQube analysis will now be integrated into your Azure DevOps pipeline.
+* SonarQube analysis will now be integrated into your Azure DevOps pipeline.
 
 ## Pipeline YAML code
 
